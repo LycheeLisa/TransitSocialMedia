@@ -2,6 +2,9 @@ import warnings
 warnings.filterwarnings('ignore')
 import multiprocessing as mp
 import re
+import gensim
+from gensim.models import CoherenceModel
+from hyperopt import fmin, tpe, hp, STATUS_OK, Trials, rand
 
 def flatten(x):
     """
@@ -22,7 +25,6 @@ def flatten(x):
         else:
             result.append(el)
     return result
-
 class mp_tokenize:
     def __init__(self, df, target_column, stop_words, station, photo, nlp,jobs):
         self.df=df
@@ -32,6 +34,7 @@ class mp_tokenize:
         self.photo=photo
         self.nlp=nlp
         self.jobs = jobs
+
         pass
 
     def excecute(self):
@@ -86,3 +89,85 @@ class mp_tokenize:
                 main_phrases.append(word.lemma_)
         final_phrases = flatten([i.split(' ') for i in main_phrases])
         return [w for w in final_phrases if w not in self.stop_words and '-PRON-' not in w]
+class gensim_optimizer:
+    def __init__(self,model_name, model_path, dictionary, corpus, texts, max_evals):
+        self.model_name = model_name
+        self.model_path=model_path
+        self.dictionary = dictionary
+        self.corpus = corpus
+        self.texts = texts
+        self.max_evals=max_evals
+
+        self.hyper_parameters=None
+        self.best_score=0
+        self.best_model = None
+        self.trails=None
+
+        self.set_hyper_parameters()
+
+        pass
+
+    def set_hyper_parameters(self):
+        if self.model_name.lower() == "ldamodel":
+            # 'distributed': hp.choice('distributed', [True, False])
+            # 'chunksize': hp.quniform('chunksize', 10000, 5000, 100000)
+            # 'gamma_threshold':hp.loguniform('gamma_threshold', -3, 2),
+            # 'minimum_phi_value':hp.loguniform('minimum_phi_value', -3, 2)
+            self.hyper_parameters={'num_topics': hp.quniform('num_topics', 1, 50, 1),
+                                   'passes': hp.quniform('passes', 3, 30, 1),
+                                   'decay': hp.uniform('decay', 0.5, 1),
+                                   'alpha': hp.choice('alpha', ["asymmetric", "auto"])}
+
+        if self.model_name.lower() == "ldamallet":
+            # 'optimize_interval': hp.quniform('optimize_interval', 1, 50, 1)
+            self.hyper_parameters={'num_topics': hp.quniform('num_topics', 1, 200, 1),
+                                   'alpha': hp.quniform('alpha', 3, 200, 1),
+                                   'topic_threshold': hp.uniform('topic_threshold', 0.001, 1)}
+
+    def exceute(self):
+        trials = Trials()
+        best = fmin(lambda x: self.bayesian_optimizer(x),
+                    self.hyper_parameters,
+                    algo=tpe.suggest,
+                    max_evals=self.max_evals,
+                    trials=trials)
+
+        return trials, self.best_model, self.best_score
+
+    def bayesian_optimizer(self, xx):
+        coherence_values = -self.compute_coherence_values(xx)
+        if -coherence_values > self.best_score:
+            self.best_score = -coherence_values
+
+        return {'loss': coherence_values, 'status': STATUS_OK}
+
+    def compute_coherence_values(self, x):
+        if self.model_name.lower() == "ldamodel":
+            x['num_topics'] = int(x['num_topics'])
+            x['passes'] = int(x['passes'])
+            model = gensim.models.ldamodel.LdaModel(corpus=self.corpus,
+                                                    id2word=self.dictionary,
+                                                    random_state=400,
+                                                    **x)
+            # coherencemodel = CoherenceModel(model=model, texts=self.texts, dictionary=self.dictionary, coherence='c_v')
+
+        if self.model_name.lower() == "ldamallet":
+            x['num_topics'] = int(x['num_topics'])
+            x['alpha'] = int(x['alpha'])
+            model = gensim.models.wrappers.LdaMallet(self.model_path,
+                                                     corpus=self.corpus,
+                                                     id2word=self.dictionary,
+                                                     random_seed=400,
+                                                     **x)
+        coherencemodel = CoherenceModel(model=model,
+                                        texts=self.texts,
+                                        dictionary=self.dictionary,
+                                        coherence='c_v')
+
+        coherence_score = coherencemodel.get_coherence()
+        if coherence_score > self.best_score:
+            self.best_model = model
+            self.best_score = coherence_score
+
+        return coherence_score
+
