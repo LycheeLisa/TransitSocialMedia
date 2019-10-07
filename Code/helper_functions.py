@@ -64,31 +64,11 @@ class mp_tokenize:
         processed_text = self.photo.sub("photo", processed_text)
         ### 2. Get Lemma and conduct POS tagging
         input_str = self.nlp(processed_text)
-        lemma_str = [token.lemma_ for token in input_str]
-        filtered_str = ' '.join([w for w in lemma_str if not w in self.stop_words])
-        return [filtered_str, self.get_keywords(input_str)]
+        lemma_str = [token.lemma_ for token in input_str if token.pos_ in ['NOUN', 'ADJ', 'VERB', 'ADV']]
+        filtered_str = [w for w in lemma_str if not w in self.stop_words]
+        return [filtered_str]
 
-    def get_keywords(self, text):
-        """
-        Function to extract chunks of key nouns and verbs
 
-        Parameters:
-        ----------
-        text : comment string
-
-        Return:
-        ----------
-        [list of unigram keywords ]
-        """
-        main_phrases = []
-        for chunk in text.noun_chunks:
-            if chunk.root.dep_ == 'nsubj' or chunk.root.dep_ == 'dobj' or chunk.root.dep_ == 'pobj':
-                main_phrases.append(chunk.lemma_)
-        for word in text:
-            if word.pos_ == 'VERB':
-                main_phrases.append(word.lemma_)
-        final_phrases = flatten([i.split(' ') for i in main_phrases])
-        return [w for w in final_phrases if w not in self.stop_words and '-PRON-' not in w]
 class gensim_optimizer:
     def __init__(self,model_name, model_path, dictionary, corpus, texts, max_evals):
         self.model_name = model_name
