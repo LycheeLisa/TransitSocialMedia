@@ -1,0 +1,48 @@
+restaurant,category,stars,location,mention_count,latitude,longitude,number_of_stations_(1.1km),list_of_stations_(1.1km)
+Tiger Sugar,Bubble Tea,4,348A Yonge Street,1,43.658036,-79.381941,7,Wellesley; College; Queen; King; Osgoode; St. Patrick; Queen's Park
+Chick-fil-A,Fast Food,4.5,709 Yonge Street,11,43.669547,-79.386144,8,Rosedale; Wellesley; College; Museum; St. George; St. George; Bay; Sherbourne
+Phat Kaphrao,Thai,4.5,3016B Bathurst Street,1,43.717842,-79.429744,0,
+Azkadenya - Mezza Diner,Middle Eastern,4.5,235 Queen Street West,0,43.650249,-79.388288,7,Queen; King; Union; St. Andrew; Osgoode; St. Patrick; Queen's Park
+EAT BKK,Thai,4.5,580 Queen Street W,0,,,0,
+Centrale Bergham,Burgers,4.5,482 Queen Street W,0,43.648076,-79.400431,0,
+Bubble Lee,Bubble Tea,3.5,469 Queen St W,1,43.648319,-79.397478,3,St. Andrew; Osgoode; St. Patrick
+Xing Fu Tang,Bubble Tea,3.5,506 Yonge Street,0,43.663343,-79.384151,6,Wellesley; College; St. Patrick; Queen's Park; Museum; Bay
+Vicino Italian Kitchen,Italian,5,146 Sumach St,1,,-79.35994,0,
+RYUS Noodle Bar,Ramen,4,669 Queen Street W,0,43.646872,-79.404608,0,
+Nani’s Gelato,Ramen,4,669 Queen Street W,0,,,0,
+Bloom,Cafes,4,596 Yonge street,2,43.665505,-79.385056,6,Wellesley; College; Queen's Park; Museum; Bay; Sherbourne
+Bluestone Lane,Coffee & Tea,5,2 Queen St E,1,,,0,
+Sisters & Co,Breakfast & Brunch,4,887 Dundas Street West,1,43.65098,-79.411762,0,
+Avelo,Vegan,4.5,51 St Nicholas Street,1,43.667066,-79.386168,9,Rosedale; Wellesley; College; Queen's Park; Museum; St. George; St. George; Bay; Sherbourne
+Buono,Italian,4,354 Queen Street W,1,43.649256,-79.395492,3,St. Andrew; Osgoode; St. Patrick
+The Alley,Bubble Tea,5,382 Yonge Street,1,43.659289,-79.382993,6,Wellesley; College; Queen; Osgoode; St. Patrick; Queen's Park
+Roselle West,Desserts,4.5,108 Dovercourt Rd,1,43.643748,-79.422637,0,
+TRU TEA 初茶,Bubble Tea,4,25 Carlton Street,0,43.661088,-79.382001,5,Wellesley; College; Queen; St. Patrick; Queen's Park
+Favorites,Salad,4,141 Ossington Avenue,1,43.647439,-79.41972,0,
+Cass Avenue,Cocktail Bars,4.5,150 Eglinton Avenue E,1,43.707894,-79.394025,1,Eglinton
+Boat King of Thai Noodles,Thai,3,770 Bay Street,1,43.660101,-79.386004,7,Wellesley; College; Queen; Osgoode; St. Patrick; Queen's Park; Museum
+Meet Fresh,Shaved Snow,4,333 Spadina Avenue,0,43.654758,-79.398282,3,Osgoode; St. Patrick; Queen's Park
+BAO,Chinese,3,2-270 Spadina Avenue,1,43.652341,-79.398195,3,Osgoode; St. Patrick; Queen's Park
+L’ARC EN CIEL,Desserts,4.5,376 College Street,0,43.65732,-79.405024,0,
+Avling Kitchen & Brewery,Brewpubs,4,1042 Queen Street E,0,43.661752,-79.338275,0,
+Mascot Brewery Patio,Breweries,4,220 KING STREET WEST,0,43.647468,-79.387134,6,Queen; King; Union; St. Andrew; Osgoode; St. Patrick
+Hiwa,Chinese,4,64 Edward St,1,43.656726,-79.383707,8,Wellesley; College; Queen; King; St. Andrew; Osgoode; St. Patrick; Queen's Park
+Kung Fu Tea,Bubble Tea,4.5,633 Bloor St W,0,43.664262,-79.414507,3,Spadina; Ossington; Spadina
+Li Bu Gou,Chinese,4,10 Willison Square,0,43.652259,-79.398366,3,Osgoode; St. Patrick; Queen's Park
+Par-Tee Putt,Golf,3,26 Duncan Street,1,43.648597,-79.389128,6,Queen; King; Union; St. Andrew; Osgoode; St. Patrick
+San Coffee Room,Coffee & Tea,5,135 Ossington Avenue,1,43.647264,-79.419629,0,
+The Fourth Man in the Fire,Pizza,3.5,832 Dundas Street W,1,43.651741,-79.409571,0,
+Bar Poet,Bars,3,1090 Queen Street W,2,43.643746,-79.422317,0,
+Gyubee Japanese Grill - Dundas,Japanese,5,157 Dundas St W,0,43.655163,-79.385658,7,College; Queen; King; St. Andrew; Osgoode; St. Patrick; Queen's Park
+Project Glyph,Desserts,5,40 Hayden Street,2,43.669967,-79.384594,6,Rosedale; Wellesley; College; Museum; Bay; Sherbourne
+Heart Clean Eats,Coffee & Tea,5,113 Fort York Boulevard,0,43.639069,-79.398169,0,
+Les epicuriens,Ice Cream & Frozen Yogurt,4,2109 1/2 Yonge Street,1,43.703314,-79.397331,2,Eglinton; Davisville
+The Sweet Oven,Bakeries,4,1911 Queen Street E,1,43.668885,-79.304465,0,
+Higher,Bubble Tea,3.5,493A Dundas St W,0,43.652864,-79.397544,3,Osgoode; St. Patrick; Queen's Park
+Gong Cha,Bubble Tea,3,390 Queen Street West,0,43.648817,-79.396931,3,St. Andrew; Osgoode; St. Patrick
+Xango,Latin American,3.5,461 King Street W,1,43.644927,-79.396327,2,St. Andrew; Osgoode
+est Restaurant,Canadian (New),3,729 Queen Street E,2,43.658909,-79.348988,0,
+Best istanbul Restaurant,Turkish,3.5,235 Augusta Avenue,0,43.654618,-79.401869,2,St. Patrick; Queen's Park
+La Diperie,Ice Cream & Frozen Yogurt,3.5,717 Bay St,0,43.659556,-79.384837,7,Wellesley; College; Queen; Osgoode; St. Patrick; Queen's Park; Museum
+Ronin Izakaya,Japanese,3.5,39 Baldwin Street,0,43.655827,-79.39359,4,College; Osgoode; St. Patrick; Queen's Park
+Jollibee,Filipino,3,79 Billy Bishop Way,4,43.732982,-79.452232,2,Yorkdale; Wilson
