@@ -1,3 +1,4 @@
+#functions for classes corse
 import warnings
 warnings.filterwarnings('ignore')
 import multiprocessing as mp
@@ -150,4 +151,3 @@ class gensim_optimizer:
             self.best_score = coherence_score
 
         return coherence_score
-
