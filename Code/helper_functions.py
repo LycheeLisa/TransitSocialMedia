@@ -3,9 +3,52 @@ import warnings
 warnings.filterwarnings('ignore')
 import multiprocessing as mp
 import re
+import time
 import gensim
 from gensim.models import CoherenceModel
 from hyperopt import fmin, tpe, hp, STATUS_OK, Trials, rand
+import numpy as np
+from selenium import webdriver
+from haversine import haversine
+import numbers
+
+def find_lat_long(address_list, patient_time):
+    lat_long_list=list()
+    for address in address_list:
+        try:
+            driver = webdriver.Chrome()
+            driver.get('https://getlatlong.net')
+            time.sleep(patient_time)
+            address_box = driver.find_element_by_id("addr")
+            address_box.clear()
+            address_box.send_keys(address)
+            go_button = driver.find_element_by_xpath('//*[@id="o"]/table/tbody/tr/td[1]/div[1]/table/tbody/tr/td[2]/input[2]')
+            go_button.click()
+            time.sleep(patient_time)
+            lat_box_content = driver.find_element_by_id("latbox")
+            long_box_content = driver.find_element_by_id("lonbox")
+            lat_long_list.append([lat_box_content.get_attribute('value'),long_box_content.get_attribute('value')])
+            print("{0} : lat={1} and long={2}".format(address,lat_box_content.get_attribute('value'),long_box_content.get_attribute('value')))
+            time.sleep(patient_time)
+            driver.close()
+        except:
+            lat_long_list.append([0.0,0.0])
+            print("Error: {0} : lat={1} and long={2}".format(address,0.0,0.0))
+            driver.close()
+    return lat_long_list
+
+def distance_func(location, location_list):
+    distance_list=list()
+    if isinstance(location[0], numbers.Number) & isinstance(location[1], numbers.Number):
+        for loc in location_list:
+            if isinstance(loc[0], numbers.Number) & isinstance(loc[1], numbers.Number):
+                distance=haversine(location, loc, unit='km')
+                distance_list.append(distance)
+            else:
+                distance_list.append(None)
+    else:
+        distance_list=[None]*len(location_list)
+    return distance_list
 
 def flatten(x):
     """
