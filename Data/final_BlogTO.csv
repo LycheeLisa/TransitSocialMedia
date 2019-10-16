@@ -1,48 +1,48 @@
-restaurant,category,stars,location,mention_count,latitude,longitude,number_of_stations_(1.1km),list_of_stations_(1.1km)
-Tiger Sugar,Bubble Tea,4,348A Yonge Street,1,43.658036,-79.381941,7,Wellesley; College; Queen; King; Osgoode; St. Patrick; Queen's Park
-Chick-fil-A,Fast Food,4.5,709 Yonge Street,11,43.669547,-79.386144,8,Rosedale; Wellesley; College; Museum; St. George; St. George; Bay; Sherbourne
-Phat Kaphrao,Thai,4.5,3016B Bathurst Street,1,43.717842,-79.429744,0,
-Azkadenya - Mezza Diner,Middle Eastern,4.5,235 Queen Street West,0,43.650249,-79.388288,7,Queen; King; Union; St. Andrew; Osgoode; St. Patrick; Queen's Park
-EAT BKK,Thai,4.5,580 Queen Street W,0,,,0,
-Centrale Bergham,Burgers,4.5,482 Queen Street W,0,43.648076,-79.400431,0,
-Bubble Lee,Bubble Tea,3.5,469 Queen St W,1,43.648319,-79.397478,3,St. Andrew; Osgoode; St. Patrick
-Xing Fu Tang,Bubble Tea,3.5,506 Yonge Street,0,43.663343,-79.384151,6,Wellesley; College; St. Patrick; Queen's Park; Museum; Bay
-Vicino Italian Kitchen,Italian,5,146 Sumach St,1,,-79.35994,0,
-RYUS Noodle Bar,Ramen,4,669 Queen Street W,0,43.646872,-79.404608,0,
-Nani’s Gelato,Ramen,4,669 Queen Street W,0,,,0,
-Bloom,Cafes,4,596 Yonge street,2,43.665505,-79.385056,6,Wellesley; College; Queen's Park; Museum; Bay; Sherbourne
-Bluestone Lane,Coffee & Tea,5,2 Queen St E,1,,,0,
-Sisters & Co,Breakfast & Brunch,4,887 Dundas Street West,1,43.65098,-79.411762,0,
-Avelo,Vegan,4.5,51 St Nicholas Street,1,43.667066,-79.386168,9,Rosedale; Wellesley; College; Queen's Park; Museum; St. George; St. George; Bay; Sherbourne
-Buono,Italian,4,354 Queen Street W,1,43.649256,-79.395492,3,St. Andrew; Osgoode; St. Patrick
-The Alley,Bubble Tea,5,382 Yonge Street,1,43.659289,-79.382993,6,Wellesley; College; Queen; Osgoode; St. Patrick; Queen's Park
-Roselle West,Desserts,4.5,108 Dovercourt Rd,1,43.643748,-79.422637,0,
-TRU TEA 初茶,Bubble Tea,4,25 Carlton Street,0,43.661088,-79.382001,5,Wellesley; College; Queen; St. Patrick; Queen's Park
-Favorites,Salad,4,141 Ossington Avenue,1,43.647439,-79.41972,0,
-Cass Avenue,Cocktail Bars,4.5,150 Eglinton Avenue E,1,43.707894,-79.394025,1,Eglinton
-Boat King of Thai Noodles,Thai,3,770 Bay Street,1,43.660101,-79.386004,7,Wellesley; College; Queen; Osgoode; St. Patrick; Queen's Park; Museum
-Meet Fresh,Shaved Snow,4,333 Spadina Avenue,0,43.654758,-79.398282,3,Osgoode; St. Patrick; Queen's Park
-BAO,Chinese,3,2-270 Spadina Avenue,1,43.652341,-79.398195,3,Osgoode; St. Patrick; Queen's Park
-L’ARC EN CIEL,Desserts,4.5,376 College Street,0,43.65732,-79.405024,0,
-Avling Kitchen & Brewery,Brewpubs,4,1042 Queen Street E,0,43.661752,-79.338275,0,
-Mascot Brewery Patio,Breweries,4,220 KING STREET WEST,0,43.647468,-79.387134,6,Queen; King; Union; St. Andrew; Osgoode; St. Patrick
-Hiwa,Chinese,4,64 Edward St,1,43.656726,-79.383707,8,Wellesley; College; Queen; King; St. Andrew; Osgoode; St. Patrick; Queen's Park
-Kung Fu Tea,Bubble Tea,4.5,633 Bloor St W,0,43.664262,-79.414507,3,Spadina; Ossington; Spadina
-Li Bu Gou,Chinese,4,10 Willison Square,0,43.652259,-79.398366,3,Osgoode; St. Patrick; Queen's Park
-Par-Tee Putt,Golf,3,26 Duncan Street,1,43.648597,-79.389128,6,Queen; King; Union; St. Andrew; Osgoode; St. Patrick
-San Coffee Room,Coffee & Tea,5,135 Ossington Avenue,1,43.647264,-79.419629,0,
-The Fourth Man in the Fire,Pizza,3.5,832 Dundas Street W,1,43.651741,-79.409571,0,
-Bar Poet,Bars,3,1090 Queen Street W,2,43.643746,-79.422317,0,
-Gyubee Japanese Grill - Dundas,Japanese,5,157 Dundas St W,0,43.655163,-79.385658,7,College; Queen; King; St. Andrew; Osgoode; St. Patrick; Queen's Park
-Project Glyph,Desserts,5,40 Hayden Street,2,43.669967,-79.384594,6,Rosedale; Wellesley; College; Museum; Bay; Sherbourne
-Heart Clean Eats,Coffee & Tea,5,113 Fort York Boulevard,0,43.639069,-79.398169,0,
-Les epicuriens,Ice Cream & Frozen Yogurt,4,2109 1/2 Yonge Street,1,43.703314,-79.397331,2,Eglinton; Davisville
-The Sweet Oven,Bakeries,4,1911 Queen Street E,1,43.668885,-79.304465,0,
-Higher,Bubble Tea,3.5,493A Dundas St W,0,43.652864,-79.397544,3,Osgoode; St. Patrick; Queen's Park
-Gong Cha,Bubble Tea,3,390 Queen Street West,0,43.648817,-79.396931,3,St. Andrew; Osgoode; St. Patrick
-Xango,Latin American,3.5,461 King Street W,1,43.644927,-79.396327,2,St. Andrew; Osgoode
-est Restaurant,Canadian (New),3,729 Queen Street E,2,43.658909,-79.348988,0,
-Best istanbul Restaurant,Turkish,3.5,235 Augusta Avenue,0,43.654618,-79.401869,2,St. Patrick; Queen's Park
-La Diperie,Ice Cream & Frozen Yogurt,3.5,717 Bay St,0,43.659556,-79.384837,7,Wellesley; College; Queen; Osgoode; St. Patrick; Queen's Park; Museum
-Ronin Izakaya,Japanese,3.5,39 Baldwin Street,0,43.655827,-79.39359,4,College; Osgoode; St. Patrick; Queen's Park
-Jollibee,Filipino,3,79 Billy Bishop Way,4,43.732982,-79.452232,2,Yorkdale; Wilson
+restaurant,category,stars,location,mention_count,latitude,longitude,number_of_stations_(2km),list_of_stations_(2km),closest_station,closest_station_km
+Tiger Sugar,Bubble Tea,4.0,348A Yonge Street,1,43.658035999999996,-79.381941,15,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; St. George Station; Bay Station; Sherbourne Station; Union Station GO,College Station,0.3221970135085592
+Chick-fil-A,Fast Food,4.5,709 Yonge Street,11,43.669546999999994,-79.38614399999999,16,Summerhill Station; Rosedale Station; Wellesley Station; College Station; Queen Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Dupont Station; Spadina Station; St. George Station; Bay Station; Sherbourne Station; Castle Frank Station,Bay Station,0.4049673501572498
+Phat Kaphrao,Thai,4.5,3016B Bathurst Street,1,43.717842,-79.429744,2,Lawrence West Station; Yorkdale Station,Lawrence West Station,1.1779369940833828
+Azkadenya - Mezza Diner,Middle Eastern,4.5,235 Queen Street West,0,43.650249,-79.388288,11,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; Union Station GO,Osgoode Station,0.1583660469816196
+EAT BKK,Thai,4.5,580 Queen Street W,0,,,0,,,
+Centrale Bergham,Burgers,4.5,482 Queen Street W,0,43.648076,-79.40043100000001,8,Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Union Station GO,Osgoode Station,1.1513880563259047
+Bubble Lee,Bubble Tea,3.5,469 Queen St W,1,43.648319,-79.397478,9,College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Union Station GO,Osgoode Station,0.9175918843163106
+Xing Fu Tang,Bubble Tea,3.5,506 Yonge Street,0,43.663343,-79.384151,17,Rosedale Station; Wellesley Station; College Station; Queen Station; King Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station; Sherbourne Station; Castle Frank Station,Wellesley Station,0.23356373644480566
+Vicino Italian Kitchen,Italian,5.0,146 Sumach St,1,,-79.35994000000001,0,,,
+RYUS Noodle Bar,Ramen,4.0,669 Queen Street W,0,43.646871999999995,-79.404608,6,Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Exhibition GO,Osgoode Station,1.5123352679920414
+Nani’s Gelato,Ramen,4.0,669 Queen Street W,0,,,0,,,
+Bloom,Cafes,4.0,596 Yonge street,2,43.665504999999996,-79.385056,17,Summerhill Station; Rosedale Station; Wellesley Station; College Station; Queen Station; King Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station; Sherbourne Station; Castle Frank Station,Wellesley Station,0.1080385049741816
+Bluestone Lane,Coffee & Tea,5.0,2 Queen St E,1,,,0,,,
+Sisters & Co,Breakfast & Brunch,4.0,887 Dundas Street West,1,43.65098,-79.411762,4,St. Patrick Station; Queen's Park Station; Ossington Station; Exhibition GO,Ossington Station,1.7549287246791474
+Avelo,Vegan,4.5,51 St Nicholas Street,1,43.667066,-79.38616800000001,17,Summerhill Station; Rosedale Station; Wellesley Station; College Station; Queen Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Dupont Station; Spadina Station; St. George Station; Bay Station; Sherbourne Station; Castle Frank Station,Wellesley Station,0.2689506377232496
+Buono,Italian,4.0,354 Queen Street W,1,43.649256,-79.395492,10,College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; Union Station GO,Osgoode Station,0.7329953547030027
+The Alley,Bubble Tea,5.0,382 Yonge Street,1,43.659289,-79.382993,17,Rosedale Station; Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; St. George Station; Bay Station; Sherbourne Station; Castle Frank Station; Union Station GO,College Station,0.17415073061862507
+Roselle West,Desserts,4.5,108 Dovercourt Rd,1,43.643747999999995,-79.422637,1,Exhibition GO,Exhibition GO,0.9154395754880293
+TRU TEA 初茶,Bubble Tea,4.0,25 Carlton Street,0,43.661088,-79.382001,17,Rosedale Station; Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; St. George Station; Bay Station; Sherbourne Station; Castle Frank Station; Union Station GO,College Station,0.07530759070082349
+Favorites,Salad,4.0,141 Ossington Avenue,1,43.647439,-79.41972,3,Dufferin Station; Ossington Station; Exhibition GO,Exhibition GO,1.2837621495130092
+Cass Avenue,Cocktail Bars,4.5,150 Eglinton Avenue E,1,43.707894,-79.394025,2,Eglinton Station; Davisville Station,Eglinton Station,0.409803506788398
+Boat King of Thai Noodles,Thai,3.0,770 Bay Street,1,43.660101,-79.386004,18,Rosedale Station; Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station; Sherbourne Station; Union Station GO,College Station,0.2649278432152787
+Meet Fresh,Shaved Snow,4.0,333 Spadina Avenue,0,43.654758,-79.398282,16,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station; Union Station GO,St. Patrick Station,0.8105336339360564
+BAO,Chinese,3.0,2-270 Spadina Avenue,1,43.652341,-79.398195,15,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Union Station GO,St. Patrick Station,0.8423532643501697
+L’ARC EN CIEL,Desserts,4.5,376 College Street,0,43.65732,-79.405024,14,Wellesley Station; College Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Dupont Station; Ossington Station; Spadina Station; St. George Station; Bay Station,Queen's Park Station,1.209293481186525
+Avling Kitchen & Brewery,Brewpubs,4.0,1042 Queen Street E,0,43.661752,-79.338275,0,,Chester Station,2.161333096474427
+Mascot Brewery Patio,Breweries,4.0,220 KING STREET WEST,0,43.647467999999996,-79.387134,9,College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Union Station GO,St. Andrew Station,0.19124024160118114
+Hiwa,Chinese,4.0,64 Edward St,1,43.656726,-79.383707,15,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; St. George Station; Bay Station; Sherbourne Station; Union Station GO,St. Patrick Station,0.4314174036388435
+Kung Fu Tea,Bubble Tea,4.5,633 Bloor St W,0,43.664262,-79.414507,9,Museum Station; St. George Station; Spadina Station; Dupont Station; Dufferin Station; Ossington Station; Spadina Station; St. George Station; Bay Station,Spadina Station,0.9625164493541866
+Li Bu Gou,Chinese,4.0,10 Willison Square,0,43.652259,-79.39836600000001,15,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Union Station GO,St. Patrick Station,0.8582278132636354
+Par-Tee Putt,Golf,3.0,26 Duncan Street,1,43.648596999999995,-79.389128,10,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Union Station GO,Osgoode Station,0.3418521240356311
+San Coffee Room,Coffee & Tea,5.0,135 Ossington Avenue,1,43.647264,-79.419629,3,Dufferin Station; Ossington Station; Exhibition GO,Exhibition GO,1.2640923470294685
+The Fourth Man in the Fire,Pizza,3.5,832 Dundas Street W,1,43.651740999999994,-79.409571,5,Osgoode Station; St. Patrick Station; Queen's Park Station; Ossington Station; Exhibition GO,St. Patrick Station,1.7481603644846566
+Bar Poet,Bars,3.0,1090 Queen Street W,2,43.643746,-79.422317,1,Exhibition GO,Exhibition GO,0.9077777305334777
+Gyubee Japanese Grill - Dundas,Japanese,5.0,157 Dundas St W,0,43.655163,-79.38565799999999,14,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; St. George Station; Bay Station; Union Station GO,St. Patrick Station,0.2139904655279071
+Project Glyph,Desserts,5.0,40 Hayden Street,2,43.669967,-79.38459399999999,16,Summerhill Station; Rosedale Station; Wellesley Station; College Station; Queen Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Dupont Station; Spadina Station; St. George Station; Bay Station; Sherbourne Station; Castle Frank Station,Wellesley Station,0.5104899947122397
+Heart Clean Eats,Coffee & Tea,5.0,113 Fort York Boulevard,0,43.639069,-79.398169,7,King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Union Station GO; Exhibition GO,St. Andrew Station,1.430427772782225
+Les epicuriens,Ice Cream & Frozen Yogurt,4.0,2109 1/2 Yonge Street,1,43.703314,-79.39733100000001,3,Eglinton Station; Davisville Station; St. Clair Station,Eglinton Station,0.32347794142138675
+The Sweet Oven,Bakeries,4.0,1911 Queen Street E,1,43.668884999999996,-79.30446500000001,0,,Danforth GO,2.0114946251026145
+Higher,Bubble Tea,3.5,493A Dundas St W,0,43.652864,-79.397544,16,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station; Union Station GO,St. Patrick Station,0.7759347382585391
+Gong Cha,Bubble Tea,3.0,390 Queen Street West,0,43.648817,-79.39693100000001,9,College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Union Station GO,Osgoode Station,0.8580311393940451
+Xango,Latin American,3.5,461 King Street W,1,43.644927,-79.396327,8,Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Union Station GO,St. Andrew Station,0.9742713537886976
+est Restaurant,Canadian (New),3.0,729 Queen Street E,2,43.658909,-79.348988,0,,Chester Station,2.168313950915998
+Best istanbul Restaurant,Turkish,3.5,235 Augusta Avenue,0,43.654618,-79.40186899999999,13,Wellesley Station; College Station; Queen Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station,Queen's Park Station,1.0708623049787798
+La Diperie,Ice Cream & Frozen Yogurt,3.5,717 Bay St,0,43.659556,-79.384837,18,Rosedale Station; Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station; Sherbourne Station; Union Station GO,College Station,0.213561331823615
+Ronin Izakaya,Japanese,3.5,39 Baldwin Street,0,43.655827,-79.39359,16,Wellesley Station; College Station; Queen Station; King Station; Union Station; St. Andrew Station; Osgoode Station; St. Patrick Station; Queen's Park Station; Museum Station; St. George Station; Spadina Station; Spadina Station; St. George Station; Bay Station; Union Station GO,St. Patrick Station,0.45329711432839515
+Jollibee,Filipino,3.0,79 Billy Bishop Way,4,43.732982,-79.452232,3,Yorkdale Station; Wilson Station; Downsview Station,Wilson Station,0.2416576183346628

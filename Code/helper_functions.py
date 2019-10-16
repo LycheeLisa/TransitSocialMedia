@@ -11,6 +11,17 @@ from selenium import webdriver
 from haversine import haversine
 import numbers
 
+def mindist(dist_list,station_list):
+    min_dist=1000000
+    min_case=np.nan
+    for i in range(0,len(dist_list)-1):
+        if dist_list[i] < min_dist:
+            min_dist=dist_list[i]
+            min_case=station_list[i]
+    if min_dist==1000000:
+        min_dist=np.nan
+    return min_dist,min_case 
+
 def find_lat_long(address_list, patient_time):
     lat_long_list=list()
     for address in address_list:

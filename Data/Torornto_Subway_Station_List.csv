@@ -1,75 +1,143 @@
-station,line_number,Line_Color,latitude,longitude
-Finch,1,Yellow,43.782083,-79.416066
-North York Centre,1,Yellow,43.768595,-79.412732
-Sheppard-Yonge,1,Yellow,43.761505,-79.410989
-York Mills,1,Yellow,43.744069,-79.406720
-Lawrence,1,Yellow,43.726597,-79.402592
-Eglinton,1,Yellow,43.706102,-79.398480
-Davisville,1,Yellow,43.697645,-79.397120
-St. Clair,1,Yellow,43.687936,-79.393126
-Summerhill,1,Yellow,43.682735,-79.390913
-Rosedale,1,Yellow,43.676479,-79.388441
-Bloor,1,Yellow,,
-Wellesley,1,Yellow,43.665420,-79.383718
-College,1,Yellow,43.660853,-79.382879
-Dundas,1,Yellow,,
-Queen,1,Yellow,43.652795,-79.379418
-King,1,Yellow,43.649126,-79.377865
-Union,1,Yellow,43.644535,-79.380557
-St. Andrew,1,Yellow,43.647513,-79.384758
-Osgoode,1,Yellow,43.651153,-79.386767
-St. Patrick,1,Yellow,43.654618,-79.388209
-Queen's Park,1,Yellow,43.659312,-79.390246
-Museum,1,Yellow,43.667043,-79.393438
-St. George,1,Yellow,43.668464,-79.398910
-Spadina,1,Yellow,43.669450,-79.404928
-Dupont,1,Yellow,43.674766,-79.407044
-St. Clair West,1,Yellow,43.684339,-79.415379
-Eglinton West,1,Yellow,43.699392,-79.436165
-Glencairn,1,Yellow,,
-Lawrence West,1,Yellow,43.715771,-79.444118
-Yorkdale,1,Yellow,43.724545,-79.447479
-Wilson,1,Yellow,43.734504,-79.450085
-Downsview,1,Yellow,43.749228,-79.462266
-Kipling,2,Green,43.638026,-79.535032
-Islington,2,Green,43.645422,-79.524353
-Royal York,2,Green,43.648513,-79.509831
-Old Mill,2,Green,43.649804,-79.494260
-Jane,2,Green,43.649934,-79.483884
-Runnymede,2,Green,43.651712,-79.475885
-High Park,2,Green,,
-Keele,2,Green,43.655530,-79.459699
-Dundas West,2,Green,43.656894,-79.453295
-Lansdowne,2,Green,43.659199,-79.442065
-Dufferin,2,Green,43.660298,-79.435497
-Ossington,2,Green,43.662186,-79.427123
-Christie,2,Green,,
-Bathurst,2,Green,,
-Spadina,2,Green,43.669450,-79.404928
-St. George,2,Green,43.668464,-79.398910
-Bay,2,Green,43.670005,-79.391139
-Yonge,2,Green,,
-Sherbourne,2,Green,43.672157,-79.375827
-Castle Frank,2,Green,43.673619,-79.369018
-Broadview,2,Green,,
-Chester,2,Green,43.678243,-79.352499
-Pape,2,Green,,
-Donlands,2,Green,43.681214,-79.337845
-Greenwood,2,Green,43.682774,-79.330336
-Coxwell,2,Green,43.684320,-79.323095
-Woodbine,2,Green,43.686573,-79.312704
-Main Street,2,Green,43.689018,-79.301690
-Victoria Park,2,Green,43.694947,-79.288640
-Warden,2,Green,43.711172,-79.279056
-Kennedy,2,Green,43.732553,-79.263738
-Kennedy,3,Blue,,
-Lawrence East,3,Blue,43.750498,-79.270202
-Ellesmere,3,Blue,43.766950,-79.276332
-Midland,3,Blue,43.770440,-79.271970
-Scarborough Centre,3,Blue,,
-McCowan,3,Blue,,
-Sheppard-Yonge,4,Purple,43.761505,-79.410989
-Bayview,4,Purple,43.767022,-79.386758
-Bessarion,4,Purple,43.769341,-79.375934
-Leslie,4,Purple,43.771098,-79.365997
-Don Mills,4,Purple,43.775757,-79.345178
+station_GO,line_number,Line_Color,latitude,longitude
+Finch Station,1,Yellow,43.782083,-79.416066
+North York Centre Station,1,Yellow,43.768595,-79.412732
+Sheppard-Yonge Station,1,Yellow,43.761505,-79.410989
+York Mills Station,1,Yellow,43.744069,-79.40672
+Lawrence Station,1,Yellow,43.726597,-79.402592
+Eglinton Station,1,Yellow,43.706102,-79.39848
+Davisville Station,1,Yellow,43.697645,-79.39712
+St. Clair Station,1,Yellow,43.687936,-79.393126
+Summerhill Station,1,Yellow,43.682735,-79.390913
+Rosedale Station,1,Yellow,43.676479,-79.388441
+Bloor Station,1,Yellow,,
+Wellesley Station,1,Yellow,43.66542,-79.383718
+College Station,1,Yellow,43.660853,-79.382879
+Dundas Station,1,Yellow,,
+Queen Station,1,Yellow,43.652795,-79.379418
+King Station,1,Yellow,43.649126,-79.377865
+Union Station,1,Yellow,43.644535,-79.380557
+St. Andrew Station,1,Yellow,43.647513,-79.384758
+Osgoode Station,1,Yellow,43.651153,-79.386767
+St. Patrick Station,1,Yellow,43.654618,-79.388209
+Queen's Park Station,1,Yellow,43.659312,-79.390246
+Museum Station,1,Yellow,43.667043,-79.393438
+St. George Station,1,Yellow,43.668464,-79.39891
+Spadina Station,1,Yellow,43.66945,-79.404928
+Dupont Station,1,Yellow,43.674766,-79.407044
+St. Clair West Station,1,Yellow,43.684339,-79.415379
+Eglinton West Station,1,Yellow,43.699392,-79.436165
+Glencairn Station,1,Yellow,,
+Lawrence West Station,1,Yellow,43.715771,-79.444118
+Yorkdale Station,1,Yellow,43.724545,-79.447479
+Wilson Station,1,Yellow,43.734504,-79.450085
+Downsview Station,1,Yellow,43.749228,-79.462266
+Kipling Station,2,Green,43.638026,-79.535032
+Islington Station,2,Green,43.645422,-79.524353
+Royal York Station,2,Green,43.648513,-79.509831
+Old Mill Station,2,Green,43.649804,-79.49426
+Jane Station,2,Green,43.649934,-79.483884
+Runnymede Station,2,Green,43.651712,-79.475885
+High Park Station,2,Green,,
+Keele Station,2,Green,43.65553,-79.459699
+Dundas West Station,2,Green,43.656894,-79.453295
+Lansdowne Station,2,Green,43.659199,-79.442065
+Dufferin Station,2,Green,43.660298,-79.435497
+Ossington Station,2,Green,43.662186,-79.427123
+Christie Station,2,Green,,
+Bathurst Station,2,Green,,
+Spadina Station,2,Green,43.66945,-79.404928
+St. George Station,2,Green,43.668464,-79.39891
+Bay Station,2,Green,43.670005,-79.391139
+Yonge Station,2,Green,,
+Sherbourne Station,2,Green,43.672157,-79.375827
+Castle Frank Station,2,Green,43.673619,-79.369018
+Broadview Station,2,Green,,
+Chester Station,2,Green,43.678243,-79.352499
+Pape Station,2,Green,,
+Donlands Station,2,Green,43.681214,-79.337845
+Greenwood Station,2,Green,43.682774,-79.330336
+Coxwell Station,2,Green,43.68432,-79.323095
+Woodbine Station,2,Green,43.686573,-79.312704
+Main Street Station,2,Green,43.689018,-79.30169
+Victoria Park Station,2,Green,43.694947,-79.28864
+Warden Station,2,Green,43.711172,-79.279056
+Kennedy Station,2,Green,43.732553,-79.263738
+Kennedy Station,3,Blue,,
+Lawrence East Station,3,Blue,43.750498,-79.270202
+Ellesmere Station,3,Blue,43.76695,-79.276332
+Midland Station,3,Blue,43.77044,-79.27197
+Scarborough Centre Station,3,Blue,,
+McCowan Station,3,Blue,,
+Sheppard-Yonge Station,4,Purple,43.761505,-79.410989
+Bayview Station,4,Purple,43.767022,-79.386758
+Bessarion Station,4,Purple,43.769341,-79.375934
+Leslie Station,4,Purple,43.771098,-79.365997
+Don Mills Station,4,Purple,43.775757,-79.345178
+Union Station GO,5,NA,43.6456,-79.3795
+Exhibition GO,5,NA,43.6359,-79.4192
+Mimico GO,5,NA,43.6164,-79.4972
+Long Branch GO,5,NA,43.5919,-79.5456
+Port Credit GO,5,NA,43.5556,-79.5875
+Clarkson GO,5,NA,43.5129,-79.634
+Oakville GO,5,NA,43.4546,-79.6828
+Bronte GO,5,NA,43.4171,-79.7219
+Appleby GO,5,NA,43.3791,-79.7612
+Burlington GO,5,NA,43.3413,-79.8091
+Aldershot GO,5,NA,43.3129,-79.8552
+Hamilton GO,5,NA,43.253,-79.8691
+West Harbour GO,5,NA,43.2656,-79.8652
+St. Catharines GO,5,NA,43.1478,-79.2556
+Niagara Falls GO,5,NA,43.1088,-79.0636
+Danforth GO,5,NA,43.6866,-79.2994
+Scarborough GO,5,NA,43.7169,-79.255
+Eglinton GO,5,NA,43.7394,-79.2322
+Guildwood GO,5,NA,43.755,-79.198
+Rouge Hill GO,5,NA,43.7802,-79.1302
+Pickering GO,5,NA,43.8311,-79.0857
+Ajax GO,5,NA,43.8484,-79.0416
+Whitby GO,5,NA,43.8648,-78.938
+Oshawa GO,5,NA,43.8708,-78.8847
+Kipling GO,5,NA,43.6357,-79.5373
+Dixie GO,5,NA,43.6078,-79.5774
+Cooksville GO,5,NA,43.5832,-79.6239
+Erindale GO,5,NA,43.569,-79.6689
+Streetsville GO,5,NA,43.5761,-79.7087
+Meadowvale GO,5,NA,43.5978,-79.7542
+Lisgar GO,5,NA,43.5906,-79.7883
+Milton GO,5,NA,43.5234,-79.867
+Bloor GO,5,NA,43.658,-79.4509
+Weston GO,5,NA,43.7002,-79.5132
+Etobicoke North GO,5,NA,43.7063,-79.5624
+Malton GO,5,NA,43.705,-79.6382
+Bramalea GO,5,NA,43.7017,-79.6911
+Brampton GO,5,NA,43.6868,-79.7647
+Mount Pleasant GO,5,NA,43.6751,-79.8227
+Georgetown GO,5,NA,43.6556,-79.9186
+Acton GO,5,NA,43.6338,-80.0345
+Guelph GO,5,NA,43.5446,-80.2464
+Kitchener GO,5,NA,43.4556,-80.4933
+Downsview Park GO,5,NA,43.753889,-79.478333
+York University GO,5,NA,43.7788,-79.4834
+Rutherford GO,5,NA,43.8384,-79.4983
+Maple GO,5,NA,43.8594,-79.5071
+King City GO,5,NA,43.92,-79.527
+Aurora GO,5,NA,44.0007,-79.4599
+Newmarket GO,5,NA,44.0607,-79.4604
+East Gwillimbury GO,5,NA,44.0778,-79.4552
+Bradford GO,5,NA,44.1172,-79.5562
+Barrie South GO,5,NA,44.3511,-79.6275
+Allandale Waterfront GO,5,NA,44.3747,-79.6887
+Oriole GO,5,NA,43.7654,-79.3646
+Old Cummer GO,5,NA,43.7924,-79.3712
+Langstaff GO,5,NA,43.8383,-79.4233
+Richmond Hill GO,5,NA,43.8749,-79.4267
+Gormley GO,5,NA,43.9409,-79.398
+Kennedy GO,5,NA,43.7323,-79.2624
+Agincourt GO,5,NA,43.7855,-79.284
+Milliken GO,5,NA,43.8232,-79.3016
+Unionville GO,5,NA,43.8516,-79.3148
+Centennial GO,5,NA,43.8737,-79.2894
+Markham GO,5,NA,43.8827,-79.2626
+Mount Joy GO,5,NA,43.9004,-79.263
+Stouffville GO,5,NA,43.9714,-79.2501
+Lincolnville GO,5,NA,43.9948,-79.2344
