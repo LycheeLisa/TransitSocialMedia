@@ -1,3 +1,4 @@
+#functions for classes corse
 import warnings
 warnings.filterwarnings('ignore')
 import multiprocessing as mp
@@ -204,48 +205,3 @@ class gensim_optimizer:
             self.best_score = coherence_score
 
         return coherence_score
- 
-class mp_address_latlong:
-    def __init__(self, address_list, patient_time, jobs):
-        self.address_list=address_list
-        self.patient_time=patient_time
-        self.jobs=jobs
-
-        pass
-
-    def excecute(self):
-        p=mp.Pool(processes=self.jobs)
-        results=p.map(self.webscraper,self.address_list)
-        p.close()
-        p.join()
-        return list(results)
-
-    def webscraper(self, one_address):
-        try:
-            try:
-                driver = webdriver.Chrome()
-                driver.get('https://getlatlong.net')
-                time.sleep(self.patient_time)
-                address_box = driver.find_element_by_id("addr")
-                address_box.clear()
-                address_box.send_keys(one_address)
-                go_button = driver.find_element_by_xpath('//*[@id="o"]/table/tbody/tr/td[1]/div[1]/table/tbody/tr/td[2]/input[2]')
-                go_button.click()
-                time.sleep(self.patient_time)
-                lat_box_content = driver.find_element_by_id("latbox")
-                long_box_content = driver.find_element_by_id("lonbox")
-                lat_long=[lat_box_content.get_attribute('value'),long_box_content.get_attribute('value')]
-#                print("{0} : lat={1} and long={2}".format(one_address,lat_box_content.get_attribute('value').encode('utf8'),long_box_content.get_attribute('value').encode('utf8')))
-                time.sleep(self.patient_time)
-                driver.close()
-            except:
-                lat_long=["0.0","0.0"]
-#                print("Error: {0} : lat={1} and long={2}".format(one_address,0.0,0.0))
-                driver.close()
-        except:
-            lat_long=["0.0","0.0"]
-#            print("Error: {0} : lat={1} and long={2}".format(one_address,0.0,0.0))
-            
-        return lat_long
-
-        
